@@ -17,16 +17,10 @@ def random_predict(number: int = 1) -> int:
     count = 0
     max_point=101
     min_point=0
-    #print("Number", number)
-
+    
     while True:
       count += 1
-      #if count > 10:
-        #break
       predict=(max_point+min_point)//2 
-      #print("predict", predict)
-      #print("min_point", min_point)
-      #print("max_point", max_point)
       if predict==number:
         break
       elif predict < number:
